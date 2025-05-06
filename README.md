@@ -1,4 +1,4 @@
-# Sample appln
+# Document-QA-application
 
 This repository contains the source code for a Document Question-Answering (QA) application. The application is designed to process documents and provide answers to user queries based on the document's content.
 
@@ -10,7 +10,7 @@ This repository contains the source code for a Document Question-Answering (QA) 
 
 ## Folder Structure
 
-- `/maha/sample-appln`: Root directory of the project.
+- `/maha/document-qa-appln`: Root directory of the project.
 - `backend/`:
   ```
   backend/

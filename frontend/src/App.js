@@ -82,19 +82,12 @@ function App() {
         ))}
       </ul>
       <hr />
-      <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center" }}>
-        <button onClick={() => setShowIframe(!showIframe)}>
-          {showIframe ? "Close" : "AIAssistant"}
-        </button>
-        {showIframe && (
           <iframe
             src="https://copilotstudio.microsoft.com/environments/Default-3fd2e3ca-0fbb-4418-859f-474ae53db1ce/bots/crc51_techOilAssist/webchat?__version__=2"
             frameBorder="0"
-            style={{ width: "30%", height: "300px", marginLeft: 10 }}
+            style={{ width: "100%", height: "500px"}}
             title="Embedded Webchat"
           ></iframe>
-        )}
-      </div>
     </div>
   );
 }

@@ -48,6 +48,7 @@ async def ask_question(question: str = Form(...)):
     docs = vectorstore.similarity_search(question, k=3)
     print(f"Retrieved documents: {docs}")  # Print the retrieved documents
     llm = Ollama(model="mistral")
+    # llm = Ollama(model="phi")
     chain = load_qa_chain(llm, chain_type="stuff")
     answer = chain.run(input_documents=docs, question=question)
     print(f"Generated answer: {answer}")  # Print the generated answer

@@ -10,7 +10,7 @@ This repository contains the source code for a Document Question-Answering (QA) 
 
 ## Folder Structure
 
-- `/maha/sample-appln`: Root directory of the project.
+- `/maha/document-qa-appln`: Root directory of the project.
 - `backend/`:
   ```
   backend/

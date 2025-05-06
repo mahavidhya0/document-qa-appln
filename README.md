@@ -1,4 +1,4 @@
-# Sample appln
+# Document-QA-application
 
 This repository contains the source code for a Document Question-Answering (QA) application. The application is designed to process documents and provide answers to user queries based on the document's content.
 

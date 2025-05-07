@@ -140,8 +140,8 @@ This starts the API server at [http://localhost:8000](http://localhost:8000).
 Navigate to the `frontend/` folder:
 
 ```bash
-npm install
-npm start
+npm i
+npm run dev
 ```
 
 Your React app will run on [http://localhost:3000](http://localhost:3000).

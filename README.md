@@ -100,13 +100,11 @@ If Python is not recognized globally, add it manually:
    ```
    D:\Python313\
    D:\Python313\Scripts\
-   ```
-
-   ```bash
+    ```
 Navigate to the `D:\python313` folder and follow these steps:
+```
 python -m venv venv
 ./venv/Scripts/activate  # or venv/bin/activate on Linux/Mac
-# source venv/bin/activate  # or venv\Scripts\activate on Windows
 ```
 4. Click **OK** to save all changes.
 
@@ -126,6 +124,10 @@ pip install -r requirements.txt
 python -m pip install --upgrade pip
 pip install sentence-transformers torch uvicorn fastapi pytest
 pip install -U langchain-huggingface
+```
+After installing the dependencies, run the FastAPI server:
+
+```bash
 uvicorn main:app --reload
 ```
 

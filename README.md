@@ -127,6 +127,8 @@ pip install -U langchain-huggingface
 ```
 After installing the dependencies, run the FastAPI server:
 
+Navigate to the `backend/` folder:
+
 ```bash
 uvicorn main:app --reload
 ```
